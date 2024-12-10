@@ -1,0 +1,32 @@
+li {
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+ul {
+  padding-inline-start: 1.2em;
+}
+
+.pets {
+  border: 1px solid black;
+}
+
+.dog li {
+  list-style-type: "🐶 ";
+}
+
+.cat li {
+  list-style-type: "🐱 ";
+}
+
+.parrot li {
+  list-style-type: "🦜 ";
+}
+
+.snake li {
+  list-style-type: "🐍 ";
+}
+
+.lizard li {
+  list-style-type: "🦎 ";
+}
