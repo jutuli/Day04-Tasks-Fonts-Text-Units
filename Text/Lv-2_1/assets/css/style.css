@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 4.8rem;
+  background-color: gray;
+  font-family: Tahoma;
+  text-align: center;
+  color: white;
+}
+
+p,
+h2 {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+p:nth-of-type(1) {
+  text-indent: 3rem;
+  word-spacing: 1rem;
+  font-family: "Lucida Sans";
+}
+
+p:nth-of-type(2) {
+  text-indent: 4rem;
+  word-spacing: 0;
+}
+
+p:nth-of-type(3) {
+  background-color: gray;
+  line-height: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p:nth-of-type(4) {
+  background-color: black;
+  color: white;
+  line-height: 3rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  letter-spacing: 0.4rem;
+}
